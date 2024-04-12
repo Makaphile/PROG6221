@@ -16,7 +16,7 @@ class Ingredient {
 class Recipe {
     public Ingredient[] Ingredients { get; set; }
     public string[] Steps { get; set; }
-    private double[] originalQuantities; // Array to store original quantities for reset
+    private double[] originalQuantities; 
 
     public Recipe(int numIngredients, int numSteps) {
         Ingredients = new Ingredient[numIngredients];
